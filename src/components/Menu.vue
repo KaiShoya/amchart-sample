@@ -4,8 +4,8 @@
       General
     </p> -->
     <ul class="menu-list">
-      <li><a>WorldMap</a></li>
-      <li><a>JapanMap</a></li>
+      <li><router-link to="/world-map">WorldMap</router-link></li>
+      <li><router-link to="/japan-map">JapanMap</router-link></li>
     </ul>
   </aside>
 </template>

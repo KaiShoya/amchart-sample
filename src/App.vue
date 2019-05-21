@@ -1,21 +1,17 @@
 <template>
   <div id="app" class="columns">
     <Menu class="column is-one-quarter"></Menu>
-    <WorldMap class="column"/>
+    <router-view class="column"></router-view>
   </div>
 </template>
 
 <script>
 import Menu from './components/Menu.vue'
-import WorldMap from './components/WorldMap.vue'
-import JapanMap from './components/JapanMap.vue'
 
 export default {
   name: 'app',
   components: {
     Menu,
-    WorldMap,
-    JapanMap,
   }
 }
 </script>
