@@ -5,8 +5,8 @@ import 'buefy/dist/buefy.css'
 
 import App from './App.vue'
 
-import WorldMap from '@/components/WorldMap.vue'
-import JapanMap from '@/components/JapanMap.vue'
+import MapOfTheWorld from '@/components/MapOfTheWorld.vue'
+import MapOfJapan from '@/components/MapOfJapan.vue'
 
 Vue.use(VueRouter)
 Vue.use(Buefy)
@@ -14,8 +14,8 @@ Vue.use(Buefy)
 Vue.config.productionTip = false
 
 const routes = [
-  { path: '/world-map', component: WorldMap },
-  { path: '/japan-map', component: JapanMap }
+  { path: '/map-of-the-world', component: MapOfTheWorld },
+  { path: '/map-of-japan', component: MapOfJapan }
 ]
 
 const router = new VueRouter({
