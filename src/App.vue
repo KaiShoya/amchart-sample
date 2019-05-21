@@ -1,17 +1,21 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="columns">
+    <Menu class="column is-one-quarter"></Menu>
+    <WorldMap class="column"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Menu from './components/Menu.vue'
+import WorldMap from './components/WorldMap.vue'
+import JapanMap from './components/JapanMap.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Menu,
+    WorldMap,
+    JapanMap,
   }
 }
 </script>
