@@ -13,8 +13,8 @@ export default {
   mounted() {
     let map = am4core.create("chartdiv", am4maps.MapChart)
     map.geodata = am4geodata_japanLow
-    map.projection = new am4maps.projections.Miller()
     var polygonSeries = map.series.push(new am4maps.MapPolygonSeries())
+    polygonSeries.mapPolygons.template.fill = am4core.color("#47c78a");
     polygonSeries.useGeodata = true
     polygonSeries.mapPolygons.template.events.on("hit", function(ev) {
       map.zoomToMapObject(ev.target)
