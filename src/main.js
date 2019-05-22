@@ -7,6 +7,8 @@ import App from './App.vue'
 
 import MapOfTheWorld from '@/components/MapOfTheWorld.vue'
 import MapOfJapan from '@/components/MapOfJapan.vue'
+import MapOfTokyoInJapan from '@/components/MapOfTokyoInJapan.vue'
+import MapOfJapanExcludingKyushu from '@/components/MapOfJapanExcludingKyushu.vue'
 
 Vue.use(VueRouter)
 Vue.use(Buefy)
@@ -15,7 +17,9 @@ Vue.config.productionTip = false
 
 const routes = [
   { path: '/map-of-the-world', component: MapOfTheWorld },
-  { path: '/map-of-japan', component: MapOfJapan }
+  { path: '/map-of-japan', component: MapOfJapan },
+  { path: '/map-of-tokyo-in-japan', component: MapOfTokyoInJapan },
+  { path: '/map-of-japan-excluding-kyushu', component: MapOfJapanExcludingKyushu },
 ]
 
 const router = new VueRouter({
