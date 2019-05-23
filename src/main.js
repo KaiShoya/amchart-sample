@@ -10,6 +10,7 @@ import MapOfJapan from '@/components/basic/MapOfJapan.vue'
 import MapOfTokyoInJapan from '@/components/basic/MapOfTokyoInJapan.vue'
 import MapOfJapanExcludingKyushu from '@/components/basic/MapOfJapanExcludingKyushu.vue'
 import ChoiceMapOfJapan from '@/components/tutorial/ChoiceMapOfJapan.vue'
+import AddMarkerMapOfJapan from '@/components/tutorial/AddMarkerMapOfJapan.vue'
 
 Vue.use(VueRouter)
 Vue.use(Buefy)
@@ -22,6 +23,7 @@ const routes = [
   { path: '/map-of-tokyo-in-japan', component: MapOfTokyoInJapan },
   { path: '/map-of-japan-excluding-kyushu', component: MapOfJapanExcludingKyushu },
   { path: '/choice-map-of-japan', component: ChoiceMapOfJapan },
+  { path: '/add-marker-map-of-japan', component: AddMarkerMapOfJapan },
 ]
 
 const router = new VueRouter({

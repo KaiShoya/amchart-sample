@@ -10,6 +10,7 @@
     <p class="menu-label">DOCS TUTORIALS</p>
     <ul class="menu-list">
       <li><router-link to="/choice-map-of-japan">ChoiceMapOfJapan</router-link></li>
+      <li><router-link to="/add-marker-map-of-japan">AddMarkerMapOfJapan</router-link></li>
     </ul>
   </aside>
 </template>
