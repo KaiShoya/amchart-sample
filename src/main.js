@@ -5,11 +5,11 @@ import 'buefy/dist/buefy.css'
 
 import App from './App.vue'
 
-import MapOfTheWorld from '@/components/MapOfTheWorld.vue'
-import MapOfJapan from '@/components/MapOfJapan.vue'
-import MapOfTokyoInJapan from '@/components/MapOfTokyoInJapan.vue'
-import MapOfJapanExcludingKyushu from '@/components/MapOfJapanExcludingKyushu.vue'
-import ChoiceMapOfJapan from '@/components/ChoiceMapOfJapan.vue'
+import MapOfTheWorld from '@/components/basic/MapOfTheWorld.vue'
+import MapOfJapan from '@/components/basic/MapOfJapan.vue'
+import MapOfTokyoInJapan from '@/components/basic/MapOfTokyoInJapan.vue'
+import MapOfJapanExcludingKyushu from '@/components/basic/MapOfJapanExcludingKyushu.vue'
+import ChoiceMapOfJapan from '@/components/tutorial/ChoiceMapOfJapan.vue'
 
 Vue.use(VueRouter)
 Vue.use(Buefy)
